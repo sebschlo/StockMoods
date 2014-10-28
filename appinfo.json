@@ -1,0 +1,43 @@
+{
+  "uuid": "1a393d12-590d-4b98-99e1-8b9367b3b816",
+  "shortName": "stockMoods",
+  "longName": "Stock Moods",
+  "companyName": "SebLabs",
+  "versionCode": 1,
+  "versionLabel": "1.0",
+  "watchapp": {
+    "watchface": true
+  },
+  "appKeys": {
+    "KEY_SYMBOL": 0,
+    "KEY_CHANGE": 1,
+    "KEY_SIGN": 2
+  },
+  "capabilities": [
+    "configurable"
+  ],
+  "resources": {
+    "media": [
+      {
+        "type":"png",
+        "name":"SAD",
+        "file":"sad.png"
+      },
+      {
+        "type":"png",
+        "name":"HAPPY",
+        "file":"happy.png"
+      },
+      {
+        "type":"png",
+        "name":"INDIFFERENT",
+        "file":"indifferent.png"
+      },
+      {
+        "type":"png",
+        "name":"NO_CONNECTION",
+        "file":"noInt.png"
+      }
+    ]
+  }
+}
